@@ -1,0 +1,11 @@
+@media(min-width: 769px){
+    .description {
+        display: none;
+    }
+    .article-style{
+        box-shadow: none;
+    }
+    .article-style{
+        width: 25%;
+    }
+}

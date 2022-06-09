@@ -1,18 +1,45 @@
 *{
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
 }
 
 .header-class{
-    background-color: #EAC926;
+    background-color: #EAC926; 
+}
+
+.subheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.h1-style{
+    width: 50%;
+}
+
+.navbar-main{
+    display: none;
+    
+}
+
+
+.barra-busqueda{
+    width: 50%;
+    text-align: right;
+    
 }
 
 .subtitle{
-    text-align: center;
+    margin: auto;
 }
+
 
 .navbar-main li a{
     text-decoration: none;
@@ -23,7 +50,10 @@ body{
     list-style: none;
     margin: 0;
     padding:0;
+   
 }
+
+
 
 .h2-main1{
     font-size: 24px;
@@ -35,27 +65,31 @@ body{
 
 .price{
     font-size: 18px;
+    width: 30%;
 }
 
 .discount{
     font-size: 16px;
+    width: 70%;
+    color:#39b54a;
 }
 
 .description{
     font-size: 16px;
+    color: #666;
 }
 
 .burger-menu{
+    text-align: center;
+    
+    
+}
+.burger-icon{
     background-color: #1259c3;
     color: white;
-    max-width: 40px;
-    padding: 10px 10px;
-    display: block;
-    border-radius: 12%;
-    margin: auto;
-    text-align: center;
+    padding: 8px;
+    border-radius: 10%;
 }
-
 
 .footer-main{
     text-align: center;
@@ -66,3 +100,46 @@ body{
     margin-bottom: 10px;
     color: #1259c3;
 }
+
+.main-style{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-style div{
+    border-top: 1px solid #ebebeb;
+    padding: 8px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-style section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-style{
+    border-top: 15px #ebebeb solid;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 100%;
+}
+
+
+.icon-style{
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+}
+

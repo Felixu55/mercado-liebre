@@ -1,0 +1,37 @@
+@media(min-width: 481px){
+    .article-style{
+        width: 50%
+    }
+
+    .navbar-main{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .navbar-main ul{
+        display: flex;
+}
+    .navbar-main li{
+        margin: 5px 10px;
+    }
+
+    .subtitle{
+        font-size: 12px;
+    }
+    .burger-menu{
+        display: none;
+    }
+
+    .barra-busqueda{
+        align-content: center;
+    }
+}
+
+.subheader{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
